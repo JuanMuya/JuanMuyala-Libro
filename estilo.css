@@ -67,13 +67,18 @@ body {
 
 
 .navPersonajes:hover {
-    transform: translate(170px);
+    transform: translate(150px);
 }
 
 
 
 .navHistoria:hover {
-    transform: (150px);
+    transform: rotate(-10deg);
+}
+
+
+.navContacto:hover {
+    transform: rotate(10deg);
 }
 
 .main {
