@@ -19,21 +19,23 @@ body {
     list-style: none;
     height: 80px;
 
+    li {
+        display: inline-block;
+
+        a {
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            margin-bottom: 50px;
+            border-radius: 5px;
+
+
+        }
+    }
 }
 
-.navUl li {
-    display: inline-block;
-}
-
-.navUl li a {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    margin-bottom: 50px;
-    border-radius: 5px;
 
 
-}
 
 
 @media screen and (max-width: 620px) {
@@ -43,8 +45,12 @@ body {
     }
 }
 
-.navUl li:hover {
-    background-color: #e7d682;
+.navUl li {
+    background-color: #a3a08e;
+
+    &:hover {
+        background-color: #e7d682;
+    }
 }
 
 
@@ -57,9 +63,6 @@ body {
     transform: rotate(10deg);
 }
 
-
-
-.navPersonajes {}
 
 
 
@@ -121,12 +124,27 @@ body {
     grid-template-columns: 49% 49%;
 
     gap: 2%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+
+        margin: 50px;
+        border: 5px Solid black;
+        border-radius: 110px;
+        background-color: #a3a08e;
+
+        h2 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }
 
-.mainLugares__div div h2 {
-    display: flex;
-    flex-direction: column;
-}
+
+
+
 
 @media screen and (max-width: 750px) {
     .mainLugares__div {
@@ -137,23 +155,11 @@ body {
         justify-content: center;
         padding-bottom: 500px;
     }
-
-    .mainLugares__div div h2 {}
 }
+   
 
 
-.mainLugares__div div {
-    display: flex;
-    flex-direction: column;
-
-
-    margin: 50px;
-    border: 5px Solid black;
-    border-radius: 110px;
-    background-color: #a3a08e;
-}
-
-.mainLugares__div div:hover {
+.mainLugares__div .mainLugares__div div:hover {
     background-color: #bdbdbd9c;
     border: 5px Solid #a3a08e;
 }
