@@ -80,7 +80,8 @@ body {
 }
 
 .main {
-    background-color: #e7d682;
+    background-image: url(./imagenes/fondoindex.png);
+    background-attachment: fixed;
     color: black;
     text-align: center;
 }
