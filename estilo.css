@@ -18,6 +18,7 @@ body {
     padding: 0;
     list-style: none;
     height: 80px;
+    text-align: center;
 
 }
 
@@ -31,8 +32,8 @@ body {
     padding: 2rem;
     margin-bottom: 50px;
     border-radius: 5px;
-
-
+    color: #000000;
+    text-decoration: none;
 }
 
 
@@ -43,40 +44,36 @@ body {
     }
 }
 
-.navUl li:hover {
-    background-color: #e7d682;
-}
+
 
 
 .navIndex:hover {
-    transform: translate(170px);
+    background-color: #a7a564;
+   
 }
 
 
 .navLugares:hover {
-    transform: rotate(10deg);
+    background-color: #a7a564;
 }
-
-
-
-.navPersonajes {}
 
 
 
 
 .navPersonajes:hover {
-    transform: translate(150px);
+    background-color: #a7a564;
 }
 
 
 
 .navHistoria:hover {
-    transform: rotate(-10deg);
+    background-color: #a7a564;
 }
 
 
 .navContacto:hover {
-    transform: rotate(10deg);
+    background-color: #a7a564;
+    text-align: center;
 }
 
 .main {
@@ -269,32 +266,6 @@ body {
 .mainHistoria__h1 {
     font-size: 50px;
     padding: 50px;
-    animation-name: efecto;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-    animation-delay: 3s;
-}
-
-
-@keyframes efecto {
-    0% {}
-
-    25% {
-        width: 100px;
-    }
-
-    50% {
-        width: 400px;
-    }
-
-    75% {
-        width: 700px;
-    }
-
-    100% {
-        width: 1100px;
-    }
 }
 
 .mainHistoria__p {
@@ -330,8 +301,7 @@ body {
     border: 5px Solid black;
     margin-left: 190px;
     margin-right: 190px;
-    background-image: url(../JuanMuyala-Libro/imagenes/luna.png);
-    color: #a3a08e;
+    color: #000000;
 
 }
 
