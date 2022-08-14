@@ -49,7 +49,7 @@ body {
 
 .navIndex:hover {
     background-color: #a7a564;
-   
+
 }
 
 
@@ -81,6 +81,7 @@ body {
     background-attachment: fixed;
     color: black;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .mainIndex {
@@ -185,6 +186,11 @@ body {
 
 }
 
+.mainPersonajes__p {
+    padding-bottom: 40px;
+}
+
+
 @media screen and (max-width: 750px) {
     .mainPersonajes__div {
         display: grid;
@@ -253,8 +259,12 @@ body {
 
 
 .separadorPersonajes {
-    padding: 50px;
-    background-color: #e7d682;
+    padding: 300px;
+    background-image: url(./imagenes/paisajepersonajes.jpg);
+    background-attachment: inherit;
+    color: black;
+    text-align: center;
+
 }
 
 
@@ -333,6 +343,15 @@ body {
 
 
 .footer {
+    background-image: url(./imagenes/footer.jpg);
+    background-position: center;
+    border-top: #a3a08e solid 8px;
+
+
+    padding: 10%;
     background-color: #a3a08e;
+    height: 150px;
+    color: black;
+
 
 }
