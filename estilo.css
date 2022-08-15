@@ -257,14 +257,25 @@ body {
     margin: 30px;
 }
 
+.mainPersonajes__img {
+    border: #e7d682 5px solid;
+}
+
 
 .separadorPersonajes {
-    padding: 300px;
+    padding: 150px;
     background-image: url(./imagenes/paisajepersonajes.jpg);
     background-attachment: inherit;
     color: black;
     text-align: center;
 
+}
+
+.separadorPersonajes__p  {
+    
+    text-align: center 300px;
+    font-size: 100px;
+    
 }
 
 
