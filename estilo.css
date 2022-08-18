@@ -48,31 +48,30 @@ body {
 
 
 .navIndex:hover {
-    background-color: #a7a564;
+    background-color: #e7d682;
 
 }
 
 
 .navLugares:hover {
-    background-color: #a7a564;
+    background-color: #e7d682;
 }
 
 
 
-
 .navPersonajes:hover {
-    background-color: #a7a564;
+    background-color: #e7d682;
 }
 
 
 
 .navHistoria:hover {
-    background-color: #a7a564;
+    background-color: #e7d682;
 }
 
 
 .navContacto:hover {
-    background-color: #a7a564;
+    background-color: #e7d682;
     text-align: center;
 }
 
@@ -271,11 +270,11 @@ body {
 
 }
 
-.separadorPersonajes__p  {
-    
+.separadorPersonajes__p {
+
     text-align: center 300px;
     font-size: 100px;
-    
+
 }
 
 
@@ -285,8 +284,9 @@ body {
 }
 
 .mainHistoria__h1 {
-    font-size: 50px;
+    font-size: 80px;
     padding: 50px;
+
 }
 
 .mainHistoria__p {
@@ -296,8 +296,10 @@ body {
     padding-left: 50px;
     padding-right: 50px;
     line-height: 30px;
-    border: 5px Solid black;
-    border-radius: 50px;
+    border: 15px Solid #e7d682;
+    border-radius: 20px;
+
+    background-color: #a3a08e;
 
 }
 
@@ -339,7 +341,14 @@ body {
 }
 
 
-
+@media screen and (max-width: 760px) {
+    .mainContacto__div {
+        display: grid;
+        grid-template-columns: 70%%;
+        justify-content: center;
+        margin: 30%;
+    }
+}
 
 
 
@@ -347,6 +356,7 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 
 
 
