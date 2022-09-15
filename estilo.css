@@ -182,7 +182,7 @@ body {
 
 .mainLugares__div img {
     width: 80%;
-    height: 200px;
+    height: auto;
 
     padding-left: 18%;
 }
