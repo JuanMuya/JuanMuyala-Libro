@@ -108,6 +108,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     line-height: 30px;
+    color: #fff;
 }
 
 @media screen and (max-width: 750px) {
@@ -124,6 +125,8 @@ body {
 .mainLugares__div div h2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    font-size: 45px;
 }
 
 @media screen and (max-width: 750px) {
@@ -133,7 +136,22 @@ body {
 
         gap: 2%;
         justify-content: center;
-        padding-bottom: 500px;
+        padding-bottom: 100px;
+    }
+
+    .mainLugares__div div h2 {
+        font-size: 55%;
+    }
+
+    .mainLugares__div div {
+        display: flex;
+        flex-direction: column;
+
+
+        margin: 10px;
+        border: 5px Solid black;
+        border-radius: 70px;
+        background-color: #a3a08e;
     }
 
     .mainLugares__div div h2 {}
@@ -147,8 +165,9 @@ body {
 
     margin: 50px;
     border: 5px Solid black;
-    border-radius: 110px;
+    border-radius: 70px;
     background-color: #a3a08e;
+
 }
 
 .mainLugares__div div:hover {
@@ -157,8 +176,8 @@ body {
 }
 
 .mainLugares__div h2 {
-    font-size: 55px;
-    padding: 20%;
+    font-size: 60%;
+    padding: 10%;
 }
 
 .mainLugares__div img {
@@ -190,6 +209,7 @@ body {
 }
 
 
+
 @media screen and (max-width: 750px) {
     .mainPersonajes__div {
         display: grid;
@@ -214,6 +234,14 @@ body {
         gap: 2%;
         justify-content: center;
         padding-bottom: 900px;
+    }
+
+    .separadorPersonajes__p {
+
+        text-align: center 100%;
+        font-size: 50px;
+        color: #fff;
+
     }
 
 }
@@ -262,18 +290,20 @@ body {
 
 
 .separadorPersonajes {
-    padding: 150px;
+
+    padding-top: 300px;
+    padding-bottom: 300px;
     background-image: url(./imagenes/paisajepersonajes.jpg);
     background-attachment: inherit;
-    color: black;
     text-align: center;
+    color: #fff;
 
 }
 
 .separadorPersonajes__p {
 
-    text-align: center 300px;
-    font-size: 100px;
+    text-align: center 100%;
+    font-size: 50px;
 
 }
 
